@@ -1,6 +1,6 @@
 //
 //  ObservableProxy.swift
-//  Observable-Swift
+//  Observables-Swift
 //
 //  Created by Leszek Ślażyński on 24/06/14.
 //  Copyright (c) 2014 Leszek Ślażyński. All rights reserved.

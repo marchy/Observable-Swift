@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6592C2FB1957532100BA8CB7"
-               BuildableName = "Observable.framework"
-               BlueprintName = "Observable-iOS"
-               ReferencedContainer = "container:Observable-Swift.xcodeproj">
+               BlueprintIdentifier = "65263A9C1954BC5000B39269"
+               BuildableName = "Observables.framework"
+               BlueprintName = "Observable"
+               ReferencedContainer = "container:Observables-Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6592C3051957532100BA8CB7"
-               BuildableName = "Observable-iOS Tests.xctest"
-               BlueprintName = "Observable-iOS Tests"
-               ReferencedContainer = "container:Observable-Swift.xcodeproj">
+               BlueprintIdentifier = "65263AA71954BC5000B39269"
+               BuildableName = "Observable Tests.xctest"
+               BlueprintName = "Observable Tests"
+               ReferencedContainer = "container:Observables-Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6592C3051957532100BA8CB7"
-               BuildableName = "Observable-iOS Tests.xctest"
-               BlueprintName = "Observable-iOS Tests"
-               ReferencedContainer = "container:Observable-Swift.xcodeproj">
+               BlueprintIdentifier = "65263AA71954BC5000B39269"
+               BuildableName = "Observable Tests.xctest"
+               BlueprintName = "Observable Tests"
+               ReferencedContainer = "container:Observables-Swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6592C2FB1957532100BA8CB7"
-            BuildableName = "Observable.framework"
-            BlueprintName = "Observable-iOS"
-            ReferencedContainer = "container:Observable-Swift.xcodeproj">
+            BlueprintIdentifier = "65263A9C1954BC5000B39269"
+            BuildableName = "Observables.framework"
+            BlueprintName = "Observable"
+            ReferencedContainer = "container:Observables-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,10 +78,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6592C2FB1957532100BA8CB7"
-            BuildableName = "Observable.framework"
-            BlueprintName = "Observable-iOS"
-            ReferencedContainer = "container:Observable-Swift.xcodeproj">
+            BlueprintIdentifier = "65263A9C1954BC5000B39269"
+            BuildableName = "Observables.framework"
+            BlueprintName = "Observable"
+            ReferencedContainer = "container:Observables-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -96,10 +96,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6592C2FB1957532100BA8CB7"
-            BuildableName = "Observable.framework"
-            BlueprintName = "Observable-iOS"
-            ReferencedContainer = "container:Observable-Swift.xcodeproj">
+            BlueprintIdentifier = "65263A9C1954BC5000B39269"
+            BuildableName = "Observables.framework"
+            BlueprintName = "Observable"
+            ReferencedContainer = "container:Observables-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

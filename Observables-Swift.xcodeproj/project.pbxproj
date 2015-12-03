@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C93C1351AB0F65D0004FCEF /* Observable-Swift.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C93C1341AB0F65D0004FCEF /* Observable-Swift.podspec.json */; };
+		1C93C1351AB0F65D0004FCEF /* Observables-Swift.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C93C1341AB0F65D0004FCEF /* Observables-Swift.podspec.json */; };
 		65263AA31954BC5000B39269 /* Observable.h in Headers */ = {isa = PBXBuildFile; fileRef = 65263AA21954BC5000B39269 /* Observable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65263AB01954BC5000B39269 /* ObservableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65263AAF1954BC5000B39269 /* ObservableTests.swift */; };
 		65263ABA1954BC9F00B39269 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65263AB91954BC9F00B39269 /* Observable.swift */; };
@@ -122,8 +122,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C93C1341AB0F65D0004FCEF /* Observable-Swift.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Observable-Swift.podspec.json"; sourceTree = "<group>"; };
-		65263A9D1954BC5000B39269 /* Observable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Observable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C93C1341AB0F65D0004FCEF /* Observables-Swift.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Observables-Swift.podspec.json"; sourceTree = "<group>"; };
+		65263A9D1954BC5000B39269 /* Observables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Observables.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65263AA11954BC5000B39269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65263AA21954BC5000B39269 /* Observable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observable.h; sourceTree = "<group>"; };
 		65263AA81954BC5000B39269 /* Observable Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Observable Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,7 +135,7 @@
 		65263AC31955004A00B39269 /* ObservableReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableReference.swift; sourceTree = "<group>"; };
 		65263AC51955D7AE00B39269 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		65263AC71955D83200B39269 /* EventSubscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSubscription.swift; sourceTree = "<group>"; };
-		6592C2FC1957532100BA8CB7 /* Observable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Observable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6592C2FC1957532100BA8CB7 /* Observables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Observables.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6592C3061957532100BA8CB7 /* Observable-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Observable-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A18B941958C180008E0B44 /* EventReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventReference.swift; sourceTree = "<group>"; };
 		65D53669195F711E003B5DA5 /* OwningEventReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwningEventReference.swift; sourceTree = "<group>"; };
@@ -178,9 +178,9 @@
 		65263A931954BC5000B39269 = {
 			isa = PBXGroup;
 			children = (
-				1C93C1341AB0F65D0004FCEF /* Observable-Swift.podspec.json */,
-				65263A9F1954BC5000B39269 /* Observable */,
-				65263AAC1954BC5000B39269 /* ObservableTests */,
+				1C93C1341AB0F65D0004FCEF /* Observables-Swift.podspec.json */,
+				65263A9F1954BC5000B39269 /* Observables */,
+				65263AAC1954BC5000B39269 /* ObservablesTests */,
 				65263A9E1954BC5000B39269 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -188,15 +188,15 @@
 		65263A9E1954BC5000B39269 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65263A9D1954BC5000B39269 /* Observable.framework */,
+				65263A9D1954BC5000B39269 /* Observables.framework */,
 				65263AA81954BC5000B39269 /* Observable Tests.xctest */,
-				6592C2FC1957532100BA8CB7 /* Observable.framework */,
+				6592C2FC1957532100BA8CB7 /* Observables.framework */,
 				6592C3061957532100BA8CB7 /* Observable-iOS Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65263A9F1954BC5000B39269 /* Observable */ = {
+		65263A9F1954BC5000B39269 /* Observables */ = {
 			isa = PBXGroup;
 			children = (
 				65263AC11954EBD600B39269 /* Protocols.swift */,
@@ -212,8 +212,8 @@
 				65263AA21954BC5000B39269 /* Observable.h */,
 				65263AA01954BC5000B39269 /* Supporting Files */,
 			);
-			name = Observable;
-			path = "Observable-Swift";
+			name = Observables;
+			path = "Observables-Swift";
 			sourceTree = "<group>";
 		};
 		65263AA01954BC5000B39269 /* Supporting Files */ = {
@@ -224,14 +224,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		65263AAC1954BC5000B39269 /* ObservableTests */ = {
+		65263AAC1954BC5000B39269 /* ObservablesTests */ = {
 			isa = PBXGroup;
 			children = (
 				65263AAF1954BC5000B39269 /* ObservableTests.swift */,
 				65263AAD1954BC5000B39269 /* Supporting Files */,
 			);
-			name = ObservableTests;
-			path = "Observable-SwiftTests";
+			name = ObservablesTests;
+			path = "Observables-SwiftTests";
 			sourceTree = "<group>";
 		};
 		65263AAD1954BC5000B39269 /* Supporting Files */ = {
@@ -278,8 +278,8 @@
 			dependencies = (
 			);
 			name = Observable;
-			productName = "Observable-Swift";
-			productReference = 65263A9D1954BC5000B39269 /* Observable.framework */;
+			productName = "Observables-Swift";
+			productReference = 65263A9D1954BC5000B39269 /* Observables.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		65263AA71954BC5000B39269 /* Observable Tests */ = {
@@ -300,7 +300,7 @@
 				65E7DC681957878C00CFB99C /* PBXTargetDependency */,
 			);
 			name = "Observable Tests";
-			productName = "Observable-SwiftTests";
+			productName = "Observables-SwiftTests";
 			productReference = 65263AA81954BC5000B39269 /* Observable Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -319,7 +319,7 @@
 			);
 			name = "Observable-iOS";
 			productName = "Observable-iOS";
-			productReference = 6592C2FC1957532100BA8CB7 /* Observable.framework */;
+			productReference = 6592C2FC1957532100BA8CB7 /* Observables.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6592C3051957532100BA8CB7 /* Observable-iOS Tests */ = {
@@ -372,7 +372,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65263A971954BC5000B39269 /* Build configuration list for PBXProject "Observable-Swift" */;
+			buildConfigurationList = 65263A971954BC5000B39269 /* Build configuration list for PBXProject "Observables-Swift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -397,7 +397,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C93C1351AB0F65D0004FCEF /* Observable-Swift.podspec.json in Resources */,
+				1C93C1351AB0F65D0004FCEF /* Observables-Swift.podspec.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,10 +634,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Observable-Swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Observables-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.utdloc.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Observable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utdloc.Observables;
+				PRODUCT_NAME = Observables;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -648,10 +648,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Observable-Swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Observables-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.utdloc.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Observable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utdloc.Observables;
+				PRODUCT_NAME = Observables;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -664,7 +664,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Observable-SwiftTests/Info.plist";
+				INFOPLIST_FILE = "Observables-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.utdloc.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -680,7 +680,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Observable-SwiftTests/Info.plist";
+				INFOPLIST_FILE = "Observables-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.utdloc.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -694,11 +694,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Observable-Swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Observables-SwiftTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.utdloc.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Observable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utdloc.Observables;
+				PRODUCT_NAME = Observables;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -709,11 +709,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Observable-Swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Observables-SwiftTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.utdloc.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Observable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utdloc.Observables;
+				PRODUCT_NAME = Observables;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -725,7 +725,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Observable-SwiftTests/Info.plist";
+				INFOPLIST_FILE = "Observables-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.utdloc.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -740,7 +740,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Observable-SwiftTests/Info.plist";
+				INFOPLIST_FILE = "Observables-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.utdloc.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -751,7 +751,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65263A971954BC5000B39269 /* Build configuration list for PBXProject "Observable-Swift" */ = {
+		65263A971954BC5000B39269 /* Build configuration list for PBXProject "Observables-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65263AB11954BC5000B39269 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  Protocols.swift
-//  Observable-Swift
+//  Observables-Swift
 //
 //  Created by Leszek Ślażyński on 21/06/14.
 //  Copyright (c) 2014 Leszek Ślażyński. All rights reserved.
