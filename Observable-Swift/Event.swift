@@ -17,6 +17,9 @@ public struct Event<T>: UnownableEvent {
     public typealias HandlerType = SubscriptionType.HandlerType
     
     internal var _subscriptions = [SubscriptionType]()
+
+    public init() {
+    }
     
     public mutating func notify(value: T) {
         _subscriptions = _subscriptions.filter { $0.valid() }
