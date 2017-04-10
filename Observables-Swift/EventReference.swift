@@ -12,21 +12,23 @@ open class EventReference<T>: OwnableEvent {
     public typealias SubscriptionType = EventSubscription<T>
     public typealias HandlerType = EventSubscription<T>.HandlerType
     
-    internal var event: Event<T>
+    public private(set) var event: Event<T>
     
     open func notify(_ value: T) {
         event.notify(value)
     }
     
+    @discardableResult
     open func add(_ subscription: SubscriptionType) -> SubscriptionType {
         return event.add(subscription)
     }
     
-    open func add(_ handler : @escaping (T) -> ()) -> EventSubscription<T> {
+    @discardableResult
+    open func add(_ handler: @escaping (T) -> ()) -> EventSubscription<T> {
         return event.add(handler)
-  }
-
-    open func remove(_ subscription : SubscriptionType) {
+    }
+    
+    open func remove(_ subscription: SubscriptionType) {
         return event.remove(subscription)
     }
     
@@ -34,7 +36,8 @@ open class EventReference<T>: OwnableEvent {
         event.removeAll()
     }
     
-    open func add(owner : AnyObject, _ handler : @escaping HandlerType) -> SubscriptionType {
+    @discardableResult
+    open func add(owner: AnyObject, _ handler: @escaping HandlerType) -> SubscriptionType {
         return event.add(owner: owner, handler)
     }
     

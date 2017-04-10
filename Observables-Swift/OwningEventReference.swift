@@ -9,11 +9,11 @@
 /// A subclass of event reference allowing it to own other object[s].
 /// Additionally, the reference makes added events own itself.
 /// This retain cycle allows owned objects to live as long as valid subscriptions exist.
-open class OwningEventReference<T>: EventReference<T> {
+public class OwningEventReference<T>: EventReference<T> {
     
     internal var owned: AnyObject? = nil
 
-    open override func add(_ subscription: SubscriptionType) -> SubscriptionType {
+    public override func add(_ subscription: SubscriptionType) -> SubscriptionType {
         let subscr = super.add(subscription)
         if owned != nil {
             subscr.addOwnedObject(self)
@@ -21,7 +21,7 @@ open class OwningEventReference<T>: EventReference<T> {
         return subscr
     }
     
-    open override func add(_ handler : @escaping (T) -> ()) -> EventSubscription<T> {
+    public override func add(_ handler: @escaping (T) -> ()) -> EventSubscription<T> {
         let subscr = super.add(handler)
         if owned != nil {
             subscr.addOwnedObject(self)
@@ -29,20 +29,20 @@ open class OwningEventReference<T>: EventReference<T> {
         return subscr
     }
     
-    open override func remove(_ subscription : SubscriptionType) {
+    public override func remove(_ subscription: SubscriptionType) {
         subscription.removeOwnedObject(self)
-        return event.remove(subscription)
+        super.remove(subscription)
     }
     
-    open override func removeAll() {
-        for subscription in event._subscriptions {
+    public override func removeAll() {
+        for subscription in event.subscriptions {
             subscription.removeOwnedObject(self)
         }
-        event.removeAll()
+        super.removeAll()
     }
     
-    open override func add(owner : AnyObject, _ handler : @escaping HandlerType) -> SubscriptionType {
-        let subscr = event.add(owner: owner, handler)
+    public override func add(owner: AnyObject, _ handler:  @escaping HandlerType) -> SubscriptionType {
+        let subscr = super.add(owner: owner, handler)
         if owned != nil {
             subscr.addOwnedObject(self)
         }

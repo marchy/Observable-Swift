@@ -12,17 +12,17 @@ open class ObservableProxy<T, O: AnyObservable> : OwnableObservable where O.Valu
     
     public typealias ValueType = T
     
-    open var beforeChange = EventReference<ValueChange<T>>()
-    open var afterChange = EventReference<ValueChange<T>>()
+    public private(set) var beforeChange = EventReference<ValueChange<T>>()
+    public private(set) var afterChange = EventReference<ValueChange<T>>()
     
     // private storage in case subclasses override value with a setter
-    fileprivate var _value : T
+    private var _value: T
     
-    open var value : T {
+    open var value: T {
         return _value
     }
     
-    public init (_ o : O) {
+    public init(_ o: O) {
         self._value = o.value
         o.beforeChange.add(owner: self) { [weak self] change in
             self!.beforeChange.notify(change)
