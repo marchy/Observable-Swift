@@ -13,8 +13,8 @@ public class PairObservable<O1: AnyObservable, O2: AnyObservable> : OwnableObser
     
     public typealias ValueType = (O1.ValueType, O2.ValueType)
     
-    public private(set) var beforeChange = EventReference<ValueChange<(T1, T2)>>()
-    public private(set) var afterChange = EventReference<ValueChange<(T1, T2)>>()
+    public private(set) var beforeChange = EventReference<ValueChange<ValueType>>()
+    public private(set) var afterChange = EventReference<ValueChange<ValueType>>()
     
     internal var first : T1
     internal var second : T2

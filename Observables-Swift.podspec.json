@@ -1,7 +1,7 @@
 {
     "name"              : "Observables-Swift",
     "module_name"       : "Observables",
-    "version"           : "0.7.0",
+    "version"           : "0.7.2",
     "license"           : "MIT",
     "platforms"         : {
         "ios"           : "8.0",
@@ -13,7 +13,7 @@
     "summary"           : "KVO for Swift - Value Observing and Events",
     "source"            : {
         "git"           : "https://github.com/slazyk/Observable-Swift.git",
-        "tag"           : "v0.7.0"
+        "tag"           : "v0.7.2"
     },
     "source_files"      : "Observables-Swift/*.swift",
     "requires_arc"      : true
